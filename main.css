@@ -1,0 +1,168 @@
+@import url('http://fonts.googleapis.com/css?family=Vollkorn');
+
+p {
+	font-weight: normal;
+	font-family: Vollkorn;
+}
+
+#key {
+  margin: 2em;
+  overflow: visible;
+}
+
+button {
+  display: inline-block;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width: 25%;
+  height: 40px;
+  font-size: 1.5vw;
+  border: none;
+  border-radius: 25px;
+  background-color: rgba(248, 236, 226, 0.9);
+  color:#4b2c0d;
+  font-family: Vollkorn;
+}
+
+.buttons {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+button:active, button:focus{
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+button:hover {
+  box-shadow: 5px 5px 20px 1px rgba(248, 236, 226, 0.9);
+}
+
+#mySVG{
+	background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+}
+
+#title{
+  font-size: 4vw;
+  text-align: center;
+  margin: 30px auto 20px;
+  color: rgba(238,161,184, 0.8);
+  font-weight: bold;
+  font-family: Vollkorn;
+}
+
+svg .mainCircle:hover{
+	stroke-width:5px;
+	stroke: #d6d6d6;
+	stroke-opacity: 0.7;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(248, 236, 226, 0.9);
+  color: #4b2c0d;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px 1px rgba(214,214,214, 0.8);
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(248, 236, 226, 0.9);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #4b2c0d;
+  font-family: Vollkorn;
+}
+
+#about {
+  text-align: center;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+#keyscale {
+  width: 50vw;
+  position: absolute;
+  left: 40px;
+  top: 200px;
+}
+
+
+#gradient {
+  padding-left: 50px;
+}
+
+#gradientScale {
+/*  height: 50vh;*/
+  position: absolute;
+  left: 70px;
+  top: 200px;
+}
+
+#start {
+  display: block;
+  position: absolute;
+  left: 110px;
+  top: 200px;
+  font-size: 14px;
+  font-family: Vollkorn;
+}
+
+#end {
+  display: block;
+  position: absolute;;
+  left: 110px;
+  top: 480px;
+  font-size: 14px;
+  font-family: Vollkorn;
+}
+
+#scalename {
+  display: block;
+  position: absolute;
+  left: 30px;
+  top: 180px;
+  font-size: 14px;
+  font-family: Vollkorn;
+}
+
+li.key {
+  float: left;
+  border-top-width: 15px;
+  border-top-style: solid;
+  font-family: Vollkorn;
+  color: #666;
+  font-size: 10px;
+  width: 10%;
+  padding-left: 0;
+  padding-right: 0;
+  list-style:none;
+}
